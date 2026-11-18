@@ -20,7 +20,7 @@ from validators import (  # noqa: E402
 )
 
 PROJECT_ROOT = PYTHON_DIR.parent
-PACKAGE_DIR = PROJECT_ROOT / "Instacredit" / "Paquete_datos_prueba_tecnica"
+PACKAGE_DIR = PROJECT_ROOT / "empresa" / "Paquete_datos_prueba_tecnica"
 
 VALID_CREDITS = {"CR-00012", "CR-00093", "CR-00154"}
 

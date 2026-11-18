@@ -3,7 +3,7 @@
 
 Uso:
     python load_src.py
-    python load_src.py --data-dir "C:/Users/Admin/Downloads/Instacredit/Paquete_datos_prueba_tecnica/"
+    python load_src.py --data-dir "C:/Users/Admin/Downloads/empresa/Paquete_datos_prueba_tecnica/"
 
 Requisitos:
     - Haber ejecutado sql/00_cargar_origen.sql en la base destino.

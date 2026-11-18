@@ -15,7 +15,7 @@ except ImportError:  # pragma: no cover - permite ejecutar sin python-dotenv
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-PACKAGE_DIR = PROJECT_ROOT / "Instacredit" / "Paquete_datos_prueba_tecnica"
+PACKAGE_DIR = PROJECT_ROOT / "empresa" / "Paquete_datos_prueba_tecnica"
 DEFAULT_INPUT = PACKAGE_DIR / "api_pagos_externos.json"
 DEFAULT_DATA = PACKAGE_DIR
 DEFAULT_LOG = Path(__file__).resolve().parent / "extractor.log"
