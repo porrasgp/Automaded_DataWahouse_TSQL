@@ -1,4 +1,4 @@
-PRUEBA TÉCNICA - INGENIERO DE DATOS - INSTACREDIT
+PRUEBA TÉCNICA - INGENIERO DE DATOS - EMPRESA
 Paquete de datos (todos los datos son ficticios y fueron generados para esta prueba)
 
 Contenido:

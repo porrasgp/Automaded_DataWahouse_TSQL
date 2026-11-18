@@ -103,7 +103,7 @@ GO
    tienen encabezado en la primera fila.
    --------------------------------------------------------------------- */
 
-DECLARE @ruta NVARCHAR(260) = N'C:\Users\Admin\Downloads\Instacredit\Paquete_datos_prueba_tecnica\';
+DECLARE @ruta NVARCHAR(260) = N'C:\Users\Admin\Downloads\empresa\Paquete_datos_prueba_tecnica\';
 DECLARE @sql NVARCHAR(MAX);
 DECLARE @t TABLE (tabla SYSNAME, archivo NVARCHAR(100));
 INSERT @t VALUES ('src.sucursales','sucursales.csv'),('src.clientes','clientes.csv'),
