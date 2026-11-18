@@ -58,7 +58,7 @@ desde la carpeta donde ejecutes el comando; así funciona igual desde cualquier
 lugar.
 
 > **Ojo con las rutas por defecto.** `config.py` busca los datos en
-> `Instacredit/Paquete_datos_prueba_tecnica`, pero en este repositorio están en
+> `empresa/Paquete_datos_prueba_tecnica`, pero en este repositorio están en
 > `data/Paquete_datos_prueba_tecnica`. Define en tu `.env`:
 >
 > ```dotenv

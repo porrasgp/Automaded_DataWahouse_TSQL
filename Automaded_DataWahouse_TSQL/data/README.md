@@ -8,7 +8,7 @@ Todo está dentro de la subcarpeta `Paquete_datos_prueba_tecnica/`.
 
 ## El negocio en un párrafo
 
-Una financiera ficticia (**Instacredit**) tiene **sucursales** donde atiende a
+Una financiera ficticia (**la empresa**) tiene **sucursales** donde atiende a
 **clientes**. A cada cliente le da uno o más **créditos**. Cada crédito se paga en
 **cuotas** mensuales. Cuando el cliente paga, queda registrado un **pago**.
 Además, un proveedor externo envía por una API más pagos hechos en bancos.
@@ -108,7 +108,7 @@ Ejemplo de registro:
 ## Dónde están configuradas estas rutas
 
 Por defecto, `python/config.py` y `run_all.ps1` buscan los datos en
-`Instacredit/Paquete_datos_prueba_tecnica`, no en `data/...`. Para usar esta
+`empresa/Paquete_datos_prueba_tecnica`, no en `data/...`. Para usar esta
 carpeta, define en `python/.env`:
 
 ```dotenv

@@ -1,4 +1,4 @@
-# Prueba Técnica Instacredit — Variante Windows / Azure SQL Database
+# Prueba Técnica de la empresa — Variante Windows / Azure SQL Database
 
 Solución de Data Warehouse de cartera, carga incremental idempotente y
 extractor Python para la API de pagos externos.
@@ -12,7 +12,7 @@ los CSV se hace con `python/load_src.py`, porque no se usa `OPENROWSET/BULK`.
 
 ## 0. El proyecto en palabras simples
 
-**¿Qué problema resuelve?** Una financiera ficticia (Instacredit) presta dinero que
+**¿Qué problema resuelve?** Una financiera ficticia (la empresa) presta dinero que
 se paga en cuotas. Necesita saber cuánto le deben, qué créditos están atrasados
 (mora) y cuánto recupera cada mes. Los datos llegan sucios y repartidos: archivos
 CSV, un lote nuevo cada día y una API externa con errores.
@@ -57,7 +57,7 @@ CSV, un lote nuevo cada día y una API externa con errores.
 > **Avisos importantes de este repositorio**
 >
 > - Los datos están en `data/Paquete_datos_prueba_tecnica/`, pero `config.py` y
->   `run_all.ps1` buscan por defecto en `Instacredit/Paquete_datos_prueba_tecnica`.
+>   `run_all.ps1` buscan por defecto en `empresa/Paquete_datos_prueba_tecnica`.
 >   Define `DATA_DIR` e `INPUT_JSON_PATH` en `python/.env` (ver sección 6).
 > - El archivo `python/.env.example` que se menciona más abajo **no está incluido**;
 >   crea `python/.env` a mano con las variables de la sección 6.
@@ -242,7 +242,7 @@ Solo como referencia, para Azure SQL Database (no compatible con esta versión):
 Para SQL Server local, `00_crear_base_datos.sql` se ejecuta contra `master`:
 
 ```powershell
-.\run_all.ps1 -Server "localhost,1433" -User sa -Password 'Instacredit#2026'
+.\run_all.ps1 -Server "localhost,1433" -User sa -Password 'empresa#2026'
 ```
 
 El runner ejecuta, en este orden:
@@ -266,7 +266,7 @@ $SqlServer = "localhost,1433"       # o tu-servidor.database.windows.net
 $Db        = "dw.DatosPrueba"
 $SrcDb     = "DatosPrueba"
 $SqlUser   = "sa"
-$SqlPass   = 'Instacredit#2026'     # comillas simples si contiene $
+$SqlPass   = 'empresa#2026'     # comillas simples si contiene $
 $SqlArgs   = @("-S",$SqlServer,"-d",$Db,"-U",$SqlUser,"-P",$SqlPass,"-b","-f","65001")
 ```
 

@@ -47,7 +47,7 @@ No necesitas instalar nada extra: usa `unittest`, que viene con Python.
 
 ## Importante: dos pruebas se omiten solas
 
-Las dos últimas pruebas buscan los datos en `Instacredit/Paquete_datos_prueba_tecnica`,
+Las dos últimas pruebas buscan los datos en `empresa/Paquete_datos_prueba_tecnica`,
 una ruta que **no existe en este repositorio** (aquí la carpeta es
 `data/Paquete_datos_prueba_tecnica`). Por eso, al ejecutar, verás:
 
