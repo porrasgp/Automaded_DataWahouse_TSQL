@@ -10,6 +10,60 @@ los CSV se hace con `python/load_src.py`, porque no se usa `OPENROWSET/BULK`.
 **Azure SQL Database no es compatible** con la lectura entre bases que usa
 `02`, `03` y `05` (ver sección 10).
 
+## 0. El proyecto en palabras simples
+
+**¿Qué problema resuelve?** Una financiera ficticia (Instacredit) presta dinero que
+se paga en cuotas. Necesita saber cuánto le deben, qué créditos están atrasados
+(mora) y cuánto recupera cada mes. Los datos llegan sucios y repartidos: archivos
+CSV, un lote nuevo cada día y una API externa con errores.
+
+**¿Cómo lo resuelve?** En tres movimientos, como una cadena de montaje:
+
+```text
+  CSV + API externa            LIMPIAR Y CARGAR               RESPONDER
+ ┌───────────────┐        ┌────────────────────────┐     ┌─────────────────┐
+ │ sucursales    │        │ Python: lee, valida y  │     │ Cartera por     │
+ │ clientes      │ ─────► │ rechaza lo malo        │     │ sucursal        │
+ │ créditos      │        │ SQL: arma el Data      │ ──► │ Mora por tramo  │
+ │ cuotas        │        │ Warehouse y aplica     │     │ Recuperación    │
+ │ pagos (+API)  │        │ cada pago a su cuota   │     │ mensual         │
+ └───────────────┘        └────────────────────────┘     └─────────────────┘
+```
+
+**Conceptos que verás en todo el proyecto:**
+
+| Palabra | Qué significa |
+|---|---|
+| **Data Warehouse (DW)** | Una base de datos ordenada para analizar, no para operar. |
+| **Origen (`src`)** | Los datos tal como llegan, sin tocar. |
+| **Dimensión / Hecho** | Dimensión = etiqueta (cliente, fecha). Hecho = número que se suma (pago, saldo). |
+| **Carga incremental** | Agregar solo lo nuevo en vez de cargar todo otra vez. |
+| **Idempotente** | Puedes ejecutarlo 2, 3 o 10 veces y el resultado es el mismo: no duplica nada. |
+| **FIFO** | "Primero en entrar, primero en salir": un pago cubre primero la cuota más antigua. |
+| **Mora** | Dinero de cuotas ya vencidas y sin pagar; se clasifica por días de atraso. |
+| **Staging** | Zona de espera donde quedan los datos ya limpios antes de entrar al DW. |
+| **Bitácora** | Diario de cada proceso: cuándo corrió, cuántas filas y si salió bien. |
+
+**¿Dónde leer más?** Cada carpeta tiene su propia guía:
+
+| Carpeta | Guía | Qué explica |
+|---|---|---|
+| `sql/` | [`sql/README.md`](sql/README.md) | El modelo de datos, cada script y las reglas de mora y de aplicación de pagos. |
+| `python/` | [`python/README.md`](python/README.md) | Cómo funcionan el cargador y el extractor de la API. |
+| `python/tests/` | [`python/tests/README.md`](python/tests/README.md) | Qué comprueban las pruebas automáticas. |
+| `data/` | [`data/README.md`](data/README.md) | Qué contiene cada archivo y qué errores traen a propósito. |
+| `docs/` | [`docs/README.md`](docs/README.md) | Resumen del documento de diseño. |
+
+> **Avisos importantes de este repositorio**
+>
+> - Los datos están en `data/Paquete_datos_prueba_tecnica/`, pero `config.py` y
+>   `run_all.ps1` buscan por defecto en `Instacredit/Paquete_datos_prueba_tecnica`.
+>   Define `DATA_DIR` e `INPUT_JSON_PATH` en `python/.env` (ver sección 6).
+> - El archivo `python/.env.example` que se menciona más abajo **no está incluido**;
+>   crea `python/.env` a mano con las variables de la sección 6.
+> - Los documentos `Manual_Ejecucion_Windows_AzureSQL.pdf`,
+>   `Evidencias_Ejecucion.txt` y `Checklist_Caso02.md` no están en `docs/`.
+
 ## 1. Versiones utilizadas
 
 | Componente | Versión |
@@ -34,21 +88,22 @@ sql/
   04_consultas.sql           Consultas de negocio (cartera, mora, recuperación)
   05_validaciones.sql        Validaciones automáticas con THROW ante fallo
   06_integrar_pagos_externos.sql  Integra staging API -> fact_pago (idempotente)
-python/
+python/                      (ver python/README.md)
   config.py                  Configuración por entorno/.env
   validators.py              Normalización, validación y deduplicación
   db.py                      Acceso parametrizado con pyodbc
   load_src.py                Carga los seis CSV del paquete en src.*
   extractor_pagos.py         Fuente paginada (JSON/HTTP), staging, rechazos y bitácora
   requirements.txt
-  .env.example
-  tests/test_validators.py
-docs/
+  tests/test_validators.py   Pruebas del validador (ver python/tests/README.md)
+data/                        (ver data/README.md)
+  Paquete_datos_prueba_tecnica/   CSV, JSON de la API y script original de tablas
+docs/                        (ver docs/README.md)
   Documento_Diseno.pdf
-  Manual_Ejecucion_Windows_AzureSQL.pdf
-  Evidencias_Ejecucion.txt
-  Checklist_Caso02.md
 ```
+
+Archivos que genera el propio proceso (no son código): `python/extractor.log` y
+`python/rechazos_api.json`. Los archivos `__pycache__/` son temporales de Python.
 
 ## 3. Requisitos previos
 
@@ -120,8 +175,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ```powershell
 cd .\python
-Copy-Item .env.example .env
-notepad .env
+notepad .env      # crea el archivo; no existe un .env.example en este repositorio
 ```
 
 Ajuste como mínimo:
@@ -136,9 +190,23 @@ DB_PASSWORD='TuClave#Segura2026'
 DB_DRIVER=ODBC Driver 18 for SQL Server
 DB_ENCRYPT=yes
 DB_TRUST_CERT=no
-DATA_DIR=Instacredit/Paquete_datos_prueba_tecnica
-INPUT_JSON_PATH=Instacredit/Paquete_datos_prueba_tecnica/api_pagos_externos.json
+DATA_DIR=data/Paquete_datos_prueba_tecnica
+INPUT_JSON_PATH=data/Paquete_datos_prueba_tecnica/api_pagos_externos.json
 ```
+
+Qué significa cada variable:
+
+| Variable | Para qué sirve |
+|---|---|
+| `DB_SERVER`, `DB_PORT` | Dónde está SQL Server. |
+| `DB_NAME` | Base del Data Warehouse (`dw.DatosPrueba`). |
+| `SRC_DB_NAME` | Base de origen (`DatosPrueba`). |
+| `DB_USER`, `DB_PASSWORD` | Usuario y contraseña (la contraseña es obligatoria). |
+| `DB_DRIVER` | Driver ODBC instalado en tu equipo. |
+| `DB_ENCRYPT`, `DB_TRUST_CERT` | Cifrado de la conexión y confianza en el certificado. |
+| `DATA_DIR` | Carpeta con los CSV. |
+| `INPUT_JSON_PATH` | Archivo JSON que simula la API. |
+| `API_URL`, `API_TOKEN` | (Opcional) Si defines `API_URL`, se usa una API HTTP real en vez del JSON. |
 
 Notas:
 
@@ -156,7 +224,8 @@ Notas:
 
 ### 7.1 Runner recomendado
 
-El runner lee `python/.env` (o variables de entorno) y ejecuta todo el flujo:
+El runner lee `python/.env` (o variables de entorno) y ejecuta todo el flujo
+(equivale a pulsar un solo botón en lugar de correr los 8 pasos uno por uno):
 
 ```powershell
 cd .
