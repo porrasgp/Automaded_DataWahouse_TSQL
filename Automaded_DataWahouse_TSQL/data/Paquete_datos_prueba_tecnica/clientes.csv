@@ -1,0 +1,301 @@
+id_cliente,nombre_completo,fecha_nacimiento,provincia,telefono,fecha_alta,segmento,ingreso_mensual
+CL-00001,Patricia Carvajal Campos,1974-09-18,Limón,69672462,2025-04-13,Independiente,1348709
+CL-00002,Jorge Campos Vargas,1966-01-27,Cartago,83484538,2022-10-21,Asalariado,355025
+CL-00003,Randall Villalobos Montoya,1967-09-02,Cartago,87986268,2022-12-06,Microempresario,633026
+CL-00004,Sofía Ulate Fallas,1998-06-09,San José,74092614,2022-10-13,Microempresario,1259234
+CL-00005,Rodrigo Madrigal Ulate,1988-10-08,Cartago,64143932,2025-03-24,Asalariado,560772
+CL-00006,Marcela Soto Rojas,1978-09-27,Alajuela,83171571,2024-05-12,Independiente,606818
+CL-00007,Ana Navarro Morales,1998-02-15,San José,77614777,2021-09-19,Asalariado,449370
+CL-00008,Ana Campos Villalobos,1976-01-28,Alajuela,87254970,2020-01-17,Asalariado,686544
+CL-00009,Rosa Chaves Fallas,1993-12-08,Alajuela,72622238,2025-11-22,Pensionado,1321774
+CL-00010,Daniela Arias Hernández,1979-04-26,Limón,76921645,2021-04-04,Microempresario,851445
+CL-00011,Yolanda Quesada Salazar,1958-07-24,San José,73526649,2025-11-18,Asalariado,307442
+CL-00012,Natalia Soto Quesada,1988-09-20,San José,88122862,2022-04-08,Microempresario,1764121
+CL-00013,Sofía Brenes Castro,1966-11-26,Heredia,82125760,2021-02-27,Asalariado,1463958
+CL-00014,Silvia Castro Ulate,1991-12-25,Cartago,77111654,2025-07-06,Pensionado,2322595
+CL-00015,Luis Castro Chaves,1980-12-15,Cartago,71649175,2021-12-23,Independiente,1438053
+CL-00016,Patricia Vargas Solano,1995-05-17,Alajuela,62479048,2020-06-10,Asalariado,399963
+CL-00017,Carlos Mora Chaves,1988-05-18,San José,62688574,2022-04-23,Asalariado,946233
+CL-00018,Carlos Carvajal Alvarado,1999-11-04,Alajuela,76080453,2025-02-21,Microempresario,1082089
+CL-00019,Mauricio Navarro Solano,1974-05-28,San José,61434338,2024-10-02,Independiente,932604
+CL-00020,Silvia Carvajal Madrigal,1966-06-26,Alajuela,82132530,2020-01-13,Asalariado,2450524
+CL-00021,José Salazar Brenes,1981-02-20,Alajuela,78825886,2021-08-06,Independiente,1757535
+CL-00022,Pablo Sánchez Campos,1977-01-16,San José,86594515,2020-11-04,Pensionado,1999575
+CL-00023,Ana Morales Vargas,1986-05-26,Puntarenas,64336079,2019-02-21,Asalariado,445187
+CL-00024,Ana Cordero Calderón,1959-05-10,San José,77620741,2022-06-06,Independiente,1776147
+CL-00025,Manuel Zúñiga Soto,1967-11-21,San José,89342767,2022-04-03,Microempresario,2331400
+CL-00026,Karla Ramírez Mora,1990-01-28,Alajuela,85872366,2024-05-21,Independiente,1238691
+CL-00027,Yolanda Villalobos Hernández,1965-07-28,San José,66005681,2021-04-26,Independiente,407681
+CL-00028,Esteban Montoya Campos,2001-11-14,Puntarenas,88401174,2020-10-14,Asalariado,608557
+CL-00029,Juan Villalobos Rodríguez,1992-08-02,San José,77131300,2021-09-09,Pensionado,2027726
+CL-00030,Randall Campos Madrigal,1960-04-28,San José,68420645,2019-04-03,Asalariado,1457031
+CL-00031,Carlos Chaves Rojas,1972-07-21,Guanacaste,87282588,2019-03-22,Asalariado,1154403
+CL-00032,Esteban Salazar Montoya,1967-03-21,San José,66426171,2021-08-24,Pensionado,2155913
+CL-00033,Silvia Castro Chaves,1989-09-14,Puntarenas,63783558,2019-10-06,Asalariado,999598
+CL-00034,Jorge Araya Montoya,1986-08-17,Heredia,84261856,2019-01-11,Independiente,1529056
+CL-00035,Luis Campos Brenes,1956-12-10,Puntarenas,65060104,2025-11-27,Asalariado,778698
+CL-00036,Adriana Ulate Mora,1973-08-03,Limón,76607526,2019-10-19,Independiente,2286537
+CL-00037,José Soto Araya,1955-10-13,Heredia,69895816,2024-06-07,Asalariado,395328
+CL-00038,Juan Alvarado Villalobos,1961-03-22,San José,83691608,2022-09-02,Independiente,1003984
+CL-00039,Fabián Fallas Morales,1999-01-03,San José,69683654,2019-09-04,Asalariado,1065697
+CL-00040,Randall Fallas Campos,2000-08-05,Limón,82704941,2024-11-02,Asalariado,2122308
+CL-00041,Rodrigo Castro Araya,1986-08-21,Alajuela,86797675,2020-07-09,Microempresario,1185388
+CL-00042,Manuel Sánchez Hernández,1984-07-01,San José,67574413,2021-03-02,Independiente,1459565
+CL-00043,Karla Zúñiga Arias,1988-11-13,Alajuela,88792657,2019-04-17,Asalariado,1029378
+CL-00044,Sofía Arias Soto,1985-01-06,Guanacaste,78494398,2019-12-22,Asalariado,409163
+CL-00045,Luis Madrigal Rojas,1977-06-20,Heredia,74923056,2020-09-28,Independiente,2054133
+CL-00046,Luis Vargas Soto,1998-08-13,Cartago,61773901,2019-02-11,Independiente,989947
+CL-00047,Laura Sánchez Madrigal,2000-06-16,Puntarenas,85344528,2023-05-01,Asalariado,2294777
+CL-00048,Fabián Cordero Salazar,1963-05-07,San José,65789675,2020-03-05,Microempresario,1666900
+CL-00049,Silvia Araya Zúñiga,1968-12-29,Alajuela,66725955,2023-01-27,Asalariado,1547200
+CL-00050,Luis Ulate Castro,1992-08-10,Cartago,73134133,2020-01-29,Independiente,1362436
+CL-00051,Sofía Montoya Sánchez,1958-01-05,Limón,78255910,2025-01-24,Independiente,1637491
+CL-00052,Juan Madrigal Ramírez,1958-10-03,Heredia,65308670,2024-08-17,Independiente,1509669
+CL-00053,Manuel Navarro Vargas,1976-08-08,Puntarenas,83404029,2020-09-23,Asalariado,365612
+CL-00054,Luis Cordero Brenes,1985-12-12,Cartago,68126987,2019-10-10,Pensionado,961642
+CL-00055,Rodrigo Campos Hernández,1972-11-21,Alajuela,62948822,2020-08-31,Asalariado,679892
+CL-00056,Patricia Chaves Madrigal,1991-09-22,Alajuela,83671889,2023-08-27,Microempresario,1386162
+CL-00057,Juan Cordero Campos,1975-11-04,Limón,85773810,2020-08-23,Independiente,664988
+CL-00058,Natalia Vargas Cordero,1965-08-19,San José,78969158,2023-06-26,Asalariado,1961722
+CL-00059,Karla Fallas Solano,1976-10-29,Limón,87946372,2025-10-10,Asalariado,1103049
+CL-00060,Manuel Zúñiga Madrigal,1996-12-21,San José,82271607,2025-02-12,Independiente,1716221
+CL-00061,José Calderón Navarro,1974-07-31,Cartago,78866830,2024-06-28,Microempresario,644156
+CL-00062,Óscar Quesada Chaves,1969-04-29,Cartago,69107738,2021-02-21,Asalariado,662008
+CL-00063,Manuel Chaves Arias,1972-11-13,San José,81469881,2021-02-03,Asalariado,2026310
+CL-00064,Carlos Vargas Solano,1989-01-05,Heredia,81873206,2021-03-19,Asalariado,1163140
+CL-00065,Óscar Rodríguez Zúñiga,1990-04-12,San José,87384947,2023-10-29,Independiente,1291213
+CL-00066,Laura Zúñiga Alvarado,2001-06-14,Guanacaste,69330216,2022-09-05,Asalariado,1549528
+CL-00067,Rosa Quesada Rodríguez,1970-10-19,Guanacaste,89188941,2025-05-25,Independiente,952380
+CL-00068,Natalia Cordero Quesada,1958-05-01,Alajuela,77574293,2023-06-26,Independiente,2013054
+CL-00069,Diego Castro Hernández,1995-05-13,Heredia,75570050,2020-08-18,Microempresario,331366
+CL-00070,Gabriela Chaves Chaves,1969-01-14,Cartago,64163170,2025-04-02,Independiente,2317483
+CL-00071,Rodrigo Navarro Morales,1956-10-10,Puntarenas,83934671,2023-05-18,Microempresario,2401509
+CL-00072,Gabriela Carvajal Morales,1985-01-29,San José,83578312,2020-08-12,Independiente,884566
+CL-00073,Ana Cordero Chaves,1993-10-21,Guanacaste,83761210,2024-05-16,Independiente,682883
+CL-00074,Randall Sánchez Vargas,1978-10-31,Limón,65631530,2021-05-21,Asalariado,1409208
+CL-00075,Daniela Solano Jiménez,1994-04-18,Alajuela,72293693,2019-06-04,Asalariado,2295037
+CL-00076,Karla Navarro Madrigal,1979-03-08,Puntarenas,61516167,2025-03-13,Independiente,1324714
+CL-00077,Daniela Soto Castro,1965-11-11,Puntarenas,89888128,2023-04-19,Asalariado,1098703
+CL-00078,Yolanda Campos Quesada,1980-06-16,Limón,88678582,2021-07-03,Independiente,1085359
+CL-00079,Pablo Chaves Chaves,1969-03-01,Alajuela,65080082,2023-12-08,Microempresario,2001885
+CL-00080,Marcela Chaves Chaves,1988-10-30,San José,77544669,2020-12-26,Asalariado,1213366
+CL-00081,Silvia Mora Fallas,1983-09-08,Puntarenas,66465984,2022-10-06,Microempresario,2410643
+CL-00082,Silvia Hernández Castro,2002-09-29,Limón,72428485,2021-06-25,Pensionado,1146109
+CL-00083,Juan Calderón Quesada,1997-01-14,San José,74272203,2020-08-20,Asalariado,818141
+CL-00084,Yolanda Zúñiga Salazar,1965-10-10,San José,66212837,2025-02-26,Asalariado,1136126
+CL-00085,Luis Ramírez Salazar,1971-02-12,Limón,88084916,2020-12-18,Pensionado,1588828
+CL-00086,Marcela Mora Hernández,1957-12-17,Puntarenas,82511588,2019-12-13,Asalariado,781158
+CL-00087,Laura Vargas Vargas,1969-03-14,San José,75545859,2019-06-16,Microempresario,826430
+CL-00088,Esteban Carvajal Carvajal,2001-04-22,San José,86763496,2021-01-22,Pensionado,678549
+CL-00089,Karla Vargas Sánchez,1994-04-10,Alajuela,76647211,2023-09-19,Microempresario,513419
+CL-00090,Adriana Montoya Solano,1987-10-27,San José,74274012,2019-09-05,Asalariado,776176
+CL-00091,Ana Ulate Campos,1958-05-11,San José,83562435,2022-09-06,Microempresario,2142535
+CL-00092,Óscar Calderón Zúñiga,1970-04-26,San José,69175738,2022-10-07,Asalariado,2131689
+CL-00093,Carmen Jiménez Carvajal,1973-08-26,Limón,87710777,2021-08-21,Asalariado,1957034
+CL-00094,Gabriela Alvarado Quesada,1976-10-29,San José,78237636,2022-07-22,Independiente,569727
+CL-00095,Mauricio Villalobos Araya,1996-06-06,Alajuela,62810778,2024-12-30,Microempresario,2052942
+CL-00096,Daniela Hernández Mora,1958-12-07,Heredia,65261705,2025-04-14,Independiente,269356
+CL-00097,Andrés Ramírez Hernández,1957-10-18,Puntarenas,85914057,2021-06-09,Asalariado,478843
+CL-00098,Andrés Ulate Rojas,2001-04-13,San José,76888246,2022-06-08,Asalariado,2069208
+CL-00099,Sofía Calderón Brenes,1973-11-21,Alajuela,67238370,2020-10-14,Independiente,2391445
+CL-00100,Jorge Montoya Rodríguez,1961-02-19,Heredia,74771690,2019-03-29,Microempresario,1126223
+CL-00101,Manuel Jiménez Fallas,1973-04-27,Alajuela,89459542,2021-01-02,Independiente,965701
+CL-00102,Juan Arias Madrigal,1998-08-22,San José,89200099,2020-03-10,Asalariado,681846
+CL-00103,Fabián Rodríguez Cordero,1957-12-24,Limón,88605218,2022-07-02,Asalariado,1713655
+CL-00104,Óscar Castro Campos,1967-09-30,Cartago,64339343,2022-05-14,Independiente,590989
+CL-00105,Luis Brenes Mora,1999-10-04,Guanacaste,61615784,2024-06-27,Pensionado,819167
+CL-00106,Karla Rojas Fallas,1999-05-28,Alajuela,74605049,2023-07-19,Asalariado,615873
+CL-00107,Gabriela Jiménez Mora,1967-10-22,Limón,75009145,2024-11-04,Asalariado,1404708
+CL-00108,Óscar Brenes Vargas,1975-06-09,Alajuela,67965969,2022-10-18,Microempresario,1824269
+CL-00109,Diego Montoya Ulate,1987-02-02,Guanacaste,81264192,2019-10-13,Microempresario,663545
+CL-00110,Patricia Arias Morales,1983-10-20,Alajuela,65955957,2024-02-05,Pensionado,1132388
+CL-00111,Ana Vargas Montoya,1964-06-20,San José,87011971,2025-02-02,Asalariado,1173472
+CL-00112,Yolanda Sánchez Castro,1992-05-09,San José,85971679,2025-07-25,Independiente,1360263
+CL-00113,Diego Campos Brenes,1972-02-20,Alajuela,76281812,2021-05-30,Pensionado,1540034
+CL-00114,Pablo Mora Brenes,1980-04-04,San José,85966094,2020-09-04,Asalariado,648571
+CL-00115,Pablo Castro Araya,1994-01-01,San José,88363401,2020-06-05,Independiente,2178698
+CL-00116,Ana Soto Vargas,1968-09-28,Alajuela,63156367,2023-06-22,Microempresario,1494110
+CL-00117,Laura Alvarado Ulate,1996-02-09,Alajuela,76452394,2019-11-09,Asalariado,1247457
+CL-00118,Rosa Fallas Rodríguez,1972-07-02,San José,82316479,2020-08-20,Asalariado,2250799
+CL-00119,Randall Hernández Castro,1976-05-10,Alajuela,74880022,2022-10-10,Asalariado,2341835
+CL-00120,Fabián Brenes Chaves,1976-09-15,San José,88323911,2023-10-24,Asalariado,1899170
+CL-00121,Ana Ulate Arias,2000-10-14,San José,76975876,2021-02-13,Asalariado,2052238
+CL-00122,Mauricio Mora Quesada,1999-12-16,Cartago,79516716,2022-04-20,Independiente,748912
+CL-00123,Manuel Chaves Montoya,2001-01-12,Guanacaste,74998172,2023-05-14,Microempresario,1870767
+CL-00124,Manuel Brenes Campos,1991-05-07,Puntarenas,67803250,2019-10-22,Microempresario,490612
+CL-00125,Luis Castro Chaves,1958-11-11,Heredia,64361562,2022-02-07,Microempresario,606900
+CL-00126,Daniela Zúñiga Chaves,2000-11-17,Heredia,76226535,2022-07-26,Asalariado,1669006
+CL-00127,Diego Villalobos Solano,1971-01-29,San José,66523485,2025-02-11,Pensionado,525122
+CL-00128,Daniela Fallas Jiménez,1989-08-24,San José,63026028,2024-02-19,Microempresario,1201528
+CL-00129,Esteban Arias Ulate,1997-05-09,San José,89710042,2020-04-12,Asalariado,1310641
+CL-00130,Jorge Hernández Sánchez,2000-01-08,San José,63340774,2022-05-10,Independiente,728561
+CL-00131,Manuel Brenes Soto,1993-05-06,San José,74050937,2019-11-14,Asalariado,1683435
+CL-00132,Óscar Araya Villalobos,1988-07-31,Limón,63082677,2024-10-25,Independiente,1534979
+CL-00133,Manuel Brenes Sánchez,1979-07-30,San José,74902882,2024-09-10,Microempresario,558569
+CL-00134,Carmen Quesada Castro,1978-06-11,Alajuela,78785615,2020-09-04,Independiente,430410
+CL-00135,María Brenes Hernández,1957-01-28,Alajuela,79888207,2021-07-28,Independiente,2244193
+CL-00136,Adriana Carvajal Villalobos,1987-05-03,Heredia,77398254,2025-12-23,Independiente,1129174
+CL-00137,Pablo Alvarado Araya,1983-01-14,Cartago,66933802,2022-05-20,Independiente,1081331
+CL-00138,José Mora Villalobos,1958-07-07,San José,89422794,2023-05-13,Independiente,2007657
+CL-00139,Sofía Montoya Madrigal,1959-06-06,Limón,74322050,2021-07-17,Asalariado,750770
+CL-00140,Rosa Morales Soto,1962-12-26,Puntarenas,82322095,2022-06-14,Asalariado,922705
+CL-00141,Óscar Zúñiga Ramírez,1993-05-26,Puntarenas,73406529,2021-10-14,Asalariado,1341611
+CL-00142,Carlos Sánchez Rojas,2002-01-23,San José,62852028,2020-02-16,Microempresario,1426707
+CL-00143,Andrés Madrigal Vargas,1979-08-16,San José,73382071,2024-02-13,Asalariado,1426628
+CL-00144,Ana Salazar Villalobos,1968-01-27,Heredia,78138719,2025-11-10,Asalariado,1424686
+CL-00145,Karla Villalobos Quesada,1983-04-10,Cartago,71034266,2022-08-15,Independiente,2199586
+CL-00146,Juan Mora Montoya,1999-06-12,Alajuela,75155410,2021-07-25,Asalariado,1796400
+CL-00147,Silvia Cordero Madrigal,1984-07-26,Alajuela,77928601,2025-07-29,Asalariado,407140
+CL-00148,Daniela Ramírez Jiménez,1989-06-28,San José,74679427,2020-10-23,Asalariado,1342150
+CL-00149,Silvia Brenes Villalobos,1986-10-26,San José,68768481,2022-07-05,Asalariado,609997
+CL-00150,Daniela Salazar Jiménez,1996-12-07,Limón,89436131,2020-03-16,Independiente,2455581
+CL-00151,Randall Chaves Salazar,1973-10-05,Alajuela,84037374,2025-06-30,Asalariado,2173976
+CL-00152,Laura Alvarado Arias,1963-09-16,Guanacaste,85812993,2024-06-01,Microempresario,1597676
+CL-00153,Andrés Madrigal Montoya,1957-11-01,Cartago,65217923,2025-01-16,Independiente,1724473
+CL-00154,Ana Araya Vargas,1955-05-15,Alajuela,82469532,2020-12-11,Asalariado,2137487
+CL-00155,Jorge Vargas Madrigal,1985-06-04,Heredia,65805372,2024-01-24,Asalariado,1364390
+CL-00156,Ana Morales Zúñiga,1985-04-09,San José,86866607,2020-08-06,Microempresario,2240174
+CL-00157,Jorge Solano Cordero,1975-08-22,San José,63709992,2019-10-18,Asalariado,1847715
+CL-00158,Jorge Cordero Morales,1963-05-28,San José,77651040,2021-05-09,Independiente,1883743
+CL-00159,Carmen Quesada Vargas,1976-09-29,Cartago,75886145,2023-01-25,Asalariado,251545
+CL-00160,Juan Villalobos Castro,1958-04-06,Alajuela,83620248,2022-11-24,Independiente,1217373
+CL-00161,Mauricio Rodríguez Alvarado,1963-03-24,Heredia,75266250,2019-07-09,Microempresario,1826489
+CL-00162,Juan Montoya Chaves,1980-03-30,Alajuela,78455650,2022-03-07,Asalariado,993131
+CL-00163,Pablo Vargas Fallas,2000-03-31,San José,74283566,2019-07-29,Asalariado,408193
+CL-00164,Carlos Jiménez Alvarado,1974-12-28,Alajuela,64986949,2021-10-28,Asalariado,1295495
+CL-00165,Daniela Chaves Montoya,1975-11-26,Limón,63342641,2022-06-02,Microempresario,2372504
+CL-00166,Adriana Cordero Arias,1959-01-23,Guanacaste,83228165,2023-01-25,Asalariado,966668
+CL-00167,Rosa Campos Montoya,1961-02-15,Alajuela,67860625,2019-10-20,Independiente,1249570
+CL-00168,Andrés Castro Ramírez,1958-04-27,San José,64430659,2025-05-04,Pensionado,742135
+CL-00169,Patricia Morales Araya,1977-11-05,Guanacaste,81885406,2025-05-27,Asalariado,850463
+CL-00170,Luis Fallas Navarro,1973-08-12,San José,79336770,2024-03-12,Asalariado,371426
+CL-00171,Pablo Chaves Campos,1977-12-08,Heredia,71784782,2025-11-05,Pensionado,2487318
+CL-00172,Sofía Brenes Sánchez,1963-09-30,San José,78091821,2020-07-18,Asalariado,1684255
+CL-00173,Silvia Soto Montoya,1961-07-07,Limón,63412016,2025-12-07,Pensionado,2471368
+CL-00174,Yolanda Calderón Cordero,1981-11-11,San José,63305940,2019-08-29,Asalariado,1433775
+CL-00175,Fabián Cordero Rojas,1973-12-30,San José,81840056,2020-04-19,Independiente,258857
+CL-00176,Carlos Ramírez Calderón,1995-07-31,San José,72898025,2020-08-06,Independiente,1831284
+CL-00177,Rodrigo Salazar Quesada,1955-01-13,San José,65576854,2019-12-06,Microempresario,2123513
+CL-00178,Randall Madrigal Quesada,1955-11-02,Puntarenas,64329167,2023-06-20,Asalariado,688292
+CL-00179,Luis Fallas Navarro,1961-08-21,Alajuela,65637426,2021-05-02,Microempresario,2212424
+CL-00180,Esteban Jiménez Rodríguez,1999-06-06,Guanacaste,68985126,2019-06-30,Asalariado,673464
+CL-00181,Rodrigo Madrigal Quesada,1992-03-09,Alajuela,84871941,2024-01-16,Independiente,883953
+CL-00182,Carmen Zúñiga Cordero,1997-03-26,Alajuela,82528204,2024-05-31,Microempresario,988995
+CL-00183,Ana Soto Vargas,1987-10-14,San José,86524791,2025-12-06,Independiente,797859
+CL-00184,Manuel Zúñiga Montoya,1965-04-04,Cartago,67160085,2023-11-13,Asalariado,1226145
+CL-00185,Karla Mora Zúñiga,1982-04-11,Heredia,66040582,2025-05-16,Microempresario,1410631
+CL-00186,Patricia Quesada Morales,1976-05-07,Guanacaste,72338007,2023-01-31,Asalariado,612689
+CL-00187,Randall Chaves Sánchez,1986-04-09,Heredia,88294773,2021-10-25,Independiente,1883987
+CL-00188,Luis Zúñiga Araya,1990-05-06,Alajuela,81178056,2020-11-01,Asalariado,1199613
+CL-00189,María Campos Rojas,1974-01-18,Guanacaste,69983940,2024-12-17,Independiente,1831566
+CL-00190,María Carvajal Soto,1988-01-07,Heredia,78532569,2020-08-03,Asalariado,2168326
+CL-00191,Fabián Quesada Navarro,1968-05-11,Puntarenas,78933835,2023-03-21,Independiente,2024933
+CL-00192,Manuel Villalobos Calderón,1956-01-15,Puntarenas,82784356,2023-07-15,Asalariado,2347237
+CL-00193,Silvia Alvarado Alvarado,1985-08-12,San José,71674229,2020-12-19,Asalariado,317340
+CL-00194,Jorge Mora Carvajal,1999-07-29,Alajuela,71936842,2025-11-04,Independiente,1923489
+CL-00195,Yolanda Ramírez Arias,1956-04-10,Alajuela,86389508,2024-11-15,Independiente,1535095
+CL-00196,Silvia Morales Quesada,1991-02-26,Alajuela,84986637,2022-10-18,Asalariado,2207763
+CL-00197,Yolanda Alvarado Villalobos,1997-01-16,Heredia,83433043,2023-01-19,Microempresario,1726273
+CL-00198,Pablo Navarro Fallas,1994-11-09,Alajuela,88390977,2022-05-19,Pensionado,1073780
+CL-00199,Óscar Soto Arias,1982-08-21,Limón,72475093,2022-02-18,Pensionado,1753665
+CL-00200,Laura Araya Villalobos,1959-12-06,Guanacaste,78649064,2019-12-30,Pensionado,1380423
+CL-00201,Pablo Araya Brenes,1970-09-04,Cartago,66885540,2021-02-08,Asalariado,480984
+CL-00202,Diego Mora Cordero,1962-03-31,Limón,87453847,2020-08-15,Asalariado,680359
+CL-00203,Óscar Montoya Araya,1997-01-17,Alajuela,75916999,2024-08-08,Asalariado,1932095
+CL-00204,Andrés Campos Castro,1980-10-19,Cartago,66340915,2022-06-23,Microempresario,419549
+CL-00205,Ana Navarro Morales,1983-03-24,San José,87320137,2024-01-24,Independiente,1546480
+CL-00206,Pablo Rodríguez Sánchez,2002-03-06,Alajuela,87647404,2021-03-08,Microempresario,2088003
+CL-00207,Luis Madrigal Arias,1992-09-01,Limón,65175933,2024-05-20,Asalariado,2121267
+CL-00208,Manuel Navarro Montoya,1991-03-17,Heredia,75060585,2019-02-13,Independiente,1706354
+CL-00209,Gabriela Soto Fallas,1992-03-12,Alajuela,65380730,2025-09-19,Asalariado,1645700
+CL-00210,Silvia Ulate Ulate,1987-03-25,Cartago,69305823,2022-06-29,Independiente,271725
+CL-00211,Adriana Zúñiga Hernández,1968-02-11,San José,63748372,2020-06-23,Asalariado,1709640
+CL-00212,Mauricio Vargas Castro,1958-04-30,Cartago,68372954,2019-03-31,Independiente,1808835
+CL-00213,Diego Navarro Ramírez,1985-08-17,Alajuela,88368812,2025-03-30,Microempresario,1411160
+CL-00214,Diego Madrigal Solano,1971-08-17,Heredia,84112446,2021-03-05,Microempresario,1638189
+CL-00215,Karla Solano Carvajal,1983-04-04,San José,83793306,2025-03-14,Independiente,1046591
+CL-00216,Gabriela Castro Montoya,1983-09-17,Guanacaste,82492584,2021-03-18,Asalariado,263850
+CL-00217,Rodrigo Brenes Chaves,1965-03-14,San José,79564617,2021-01-17,Independiente,2385442
+CL-00218,Juan Quesada Quesada,2002-07-15,Cartago,62726133,2024-07-13,Asalariado,1291736
+CL-00219,Manuel Castro Calderón,1980-01-08,Heredia,71298179,2023-04-09,Asalariado,518186
+CL-00220,Adriana Montoya Jiménez,1971-12-29,Puntarenas,74189301,2019-04-11,Independiente,813240
+CL-00221,Rodrigo Rodríguez Castro,1998-03-11,San José,67882959,2024-04-12,Independiente,1444207
+CL-00222,María Cordero Rodríguez,1987-01-05,Alajuela,65061789,2020-04-27,Asalariado,2135960
+CL-00223,Juan Sánchez Sánchez,1965-06-01,Cartago,74538296,2020-08-01,Asalariado,2286915
+CL-00224,Rodrigo Navarro Navarro,1984-04-05,Limón,63371386,2022-11-11,Asalariado,2162488
+CL-00225,Rosa Quesada Zúñiga,1997-04-16,San José,78085138,2023-08-25,Pensionado,369541
+CL-00226,Rodrigo Villalobos Quesada,1970-05-17,Alajuela,66318837,2020-03-25,Independiente,1134168
+CL-00227,Pablo Hernández Campos,2002-10-21,Puntarenas,65070464,2021-06-04,Asalariado,2114221
+CL-00228,Marcela Alvarado Solano,1958-11-16,Puntarenas,75345156,2020-03-05,Asalariado,625597
+CL-00229,Carmen Villalobos Montoya,2000-07-20,Guanacaste,88862751,2024-03-12,Asalariado,658627
+CL-00230,Óscar Ulate Araya,1958-12-17,Cartago,87200188,2025-10-23,Asalariado,1930214
+CL-00231,Natalia Castro Navarro,1960-06-13,San José,68331755,2024-07-04,Microempresario,881096
+CL-00232,Diego Jiménez Jiménez,1971-07-07,Limón,82378307,2023-08-19,Asalariado,508739
+CL-00233,Jorge Calderón Zúñiga,1963-09-26,Guanacaste,77004823,2023-03-12,Asalariado,602175
+CL-00234,María Zúñiga Alvarado,1972-01-24,Heredia,77336337,2019-08-14,Microempresario,619386
+CL-00235,Sofía Solano Mora,1991-08-19,San José,63709654,2024-02-28,Asalariado,1578444
+CL-00236,Pablo Castro Brenes,1985-12-09,Guanacaste,82712261,2025-05-30,Independiente,1472899
+CL-00237,Fabián Castro Araya,1977-02-24,San José,77742579,2020-06-19,Asalariado,426069
+CL-00238,Laura Rojas Villalobos,1980-10-26,Alajuela,81605280,2021-07-10,Pensionado,696161
+CL-00239,Rodrigo Navarro Salazar,1997-04-28,Alajuela,84630478,2025-05-21,Asalariado,397170
+CL-00240,Ana Mora Araya,1998-09-06,San José,77111276,2019-07-16,Asalariado,451068
+CL-00241,Karla Zúñiga Calderón,1995-03-13,Limón,62743754,2025-04-13,Asalariado,1023023
+CL-00242,Silvia Morales Brenes,1955-02-06,San José,64425398,2022-12-21,Microempresario,2213558
+CL-00243,Rosa Arias Mora,1980-07-30,Guanacaste,66469091,2023-10-12,Asalariado,1669325
+CL-00244,Ana Salazar Navarro,1967-06-07,San José,72930835,2025-04-29,Microempresario,2426298
+CL-00245,Carlos Navarro Rodríguez,1967-03-09,Alajuela,69464988,2020-07-30,Microempresario,1048864
+CL-00246,José Jiménez Campos,1989-09-05,San José,78285153,2023-03-18,Asalariado,2320793
+CL-00247,Randall Chaves Cordero,1971-01-10,San José,86616576,2025-07-19,Asalariado,1433755
+CL-00248,Natalia Castro Mora,1993-12-24,Alajuela,85117012,2023-06-28,Asalariado,2287553
+CL-00249,Carmen Morales Castro,1996-07-25,Alajuela,84504571,2025-08-12,Asalariado,396681
+CL-00250,Juan Navarro Chaves,1966-01-04,Heredia,61639807,2023-02-27,Microempresario,839570
+CL-00251,Patricia Chaves Morales,1968-04-04,San José,69209414,2025-03-01,Microempresario,1937362
+CL-00252,Mauricio Jiménez Ulate,1957-10-20,San José,86760971,2019-09-05,Asalariado,1969958
+CL-00253,Esteban Jiménez Carvajal,1957-06-01,Limón,77305164,2021-04-26,Asalariado,1374662
+CL-00254,Esteban Araya Brenes,1967-05-25,Alajuela,82241037,2022-06-12,Asalariado,339428
+CL-00255,Ana Vargas Soto,1995-04-12,Alajuela,67174692,2023-08-15,Asalariado,1214343
+CL-00256,Rodrigo Ulate Solano,1973-11-22,Puntarenas,84429981,2021-12-06,Independiente,366345
+CL-00257,Fabián Calderón Cordero,1956-05-15,Puntarenas,87735073,2025-02-04,Asalariado,1745488
+CL-00258,Karla Araya Chaves,1964-12-02,Heredia,79745363,2022-03-09,Asalariado,1812473
+CL-00259,Randall Quesada Brenes,1977-01-02,Heredia,84338327,2019-10-12,Microempresario,2098968
+CL-00260,Ana Ramírez Soto,1992-03-13,Alajuela,62254108,2019-02-23,Independiente,1271503
+CL-00261,Esteban Hernández Ulate,1993-02-15,Guanacaste,86811893,2022-08-24,Independiente,1941436
+CL-00262,Karla Rojas Campos,1956-12-27,Limón,79204969,2024-12-24,Independiente,1178947
+CL-00263,Silvia Navarro Sánchez,1957-04-17,Guanacaste,87684116,2023-02-13,Independiente,689448
+CL-00264,Yolanda Montoya Carvajal,1962-10-31,Alajuela,82502412,2024-06-14,Microempresario,1226807
+CL-00265,Adriana Quesada Chaves,1962-07-11,Cartago,71468152,2019-12-19,Pensionado,2019938
+CL-00266,Laura Villalobos Rojas,1981-07-28,Guanacaste,88323428,2024-03-01,Asalariado,2022963
+CL-00267,José Soto Zúñiga,1967-02-21,Guanacaste,69638391,2023-12-05,Asalariado,2479771
+CL-00268,Óscar Montoya Cordero,1988-08-29,Puntarenas,75112821,2022-03-23,Independiente,729221
+CL-00269,Carlos Solano Chaves,1990-03-31,San José,88710066,2025-03-06,Asalariado,1485695
+CL-00270,Mauricio Madrigal Quesada,1986-05-29,Limón,81256027,2021-07-16,Asalariado,514096
+CL-00271,Andrés Ulate Madrigal,1994-09-03,San José,81053977,2020-12-27,Microempresario,1529949
+CL-00272,Ana Chaves Araya,1985-09-13,San José,87775219,2024-02-27,Independiente,1367157
+CL-00273,Mauricio Alvarado Cordero,1973-04-26,San José,88013633,2022-01-21,Asalariado,2069632
+CL-00274,Manuel Castro Arias,1973-12-08,San José,63450132,2023-06-06,Asalariado,1868540
+CL-00275,Silvia Chaves Vargas,1961-07-31,Alajuela,83786759,2021-02-21,Asalariado,1589624
+CL-00276,Pablo Ulate Villalobos,1999-11-29,Limón,87686661,2020-02-09,Microempresario,2487818
+CL-00277,María Fallas Rojas,1957-11-04,Puntarenas,67216224,2023-11-14,Asalariado,1626394
+CL-00278,Óscar Brenes Quesada,1986-08-12,Heredia,82687116,2021-10-06,Pensionado,1493581
+CL-00279,Silvia Montoya Alvarado,1992-12-05,San José,62156166,2022-11-13,Microempresario,2108383
+CL-00280,Patricia Fallas Quesada,1993-06-25,Guanacaste,71316140,2019-01-03,Asalariado,2167129
+CL-00281,Daniela Jiménez Cordero,1980-10-25,Alajuela,82039933,2025-12-08,Asalariado,1654382
+CL-00282,Diego Vargas Castro,1995-08-28,Alajuela,82008497,2021-12-07,Asalariado,1915082
+CL-00283,Luis Ramírez Montoya,1989-10-06,San José,71554284,2025-03-23,Asalariado,1574258
+CL-00284,Esteban Arias Ulate,1957-08-04,San José,81064208,2021-06-10,Asalariado,695702
+CL-00285,Randall Ramírez Cordero,1961-08-04,Puntarenas,67494108,2023-12-07,Pensionado,1717886
+CL-00286,Rodrigo Madrigal Navarro,1998-04-23,Limón,67793051,2019-07-23,Pensionado,451588
+CL-00287,María Solano Ramírez,1977-08-17,Cartago,64649981,2019-04-18,Independiente,1603384
+CL-00288,Silvia Araya Villalobos,2000-04-02,San José,79186750,2021-07-24,Microempresario,1664179
+CL-00289,Patricia Soto Morales,1961-06-12,San José,87507784,2025-06-05,Asalariado,390700
+CL-00290,Rodrigo Morales Calderón,1969-02-03,Alajuela,62147128,2022-10-16,Independiente,1644342
+CL-00291,Randall Zúñiga Salazar,1963-09-13,Guanacaste,64938182,2020-04-03,Independiente,1389004
+CL-00292,Juan Quesada Rodríguez,1995-06-27,Cartago,73607375,2023-10-31,Pensionado,1841338
+CL-00293,Ana Rodríguez Araya,1986-08-18,Heredia,86366981,2023-04-04,Pensionado,2215902
+CL-00294,Andrés Salazar Calderón,1987-10-12,Guanacaste,78496739,2022-11-30,Independiente,1477117
+CL-00295,Sofía Mora Ramírez,1988-07-27,Limón,62645923,2025-01-24,Asalariado,2083886
+CL-00296,Diego Madrigal Sánchez,1956-05-07,San José,68645012,2021-11-07,Microempresario,667116
+CL-00297,Manuel Calderón Vargas,1998-11-13,San José,77231875,2023-07-29,Asalariado,939740
+CL-00298,Mauricio Soto Alvarado,1984-11-01,Heredia,89890329,2022-08-14,Independiente,1606447
+CL-00299,Patricia Ramírez Salazar,1988-01-19,Alajuela,78609837,2023-12-28,Independiente,1762374
+CL-00300,José Solano Madrigal,1995-02-09,San José,78669619,2021-09-27,Microempresario,1480694

@@ -1,0 +1,163 @@
+[
+  {
+    "referencia": "EXT-260006",
+    "motivo": "REGISTRO_INVALIDO",
+    "detalle": "credito faltante",
+    "raw": {
+      "referencia": "EXT-260006",
+      "fecha_pago": "2026-10-26",
+      "monto": "288,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "12:11"
+      }
+    }
+  },
+  {
+    "referencia": "EXT-260018",
+    "motivo": "REGISTRO_INVALIDO",
+    "detalle": "fecha_pago invalida: '2026-13-01'",
+    "raw": {
+      "referencia": "EXT-260018",
+      "credito": "CR-00227",
+      "fecha_pago": "2026-13-01",
+      "monto": "117,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "20:43"
+      }
+    }
+  },
+  {
+    "referencia": "EXT-260024",
+    "motivo": "REGISTRO_INVALIDO",
+    "detalle": "monto debe ser mayor que cero: -15000.00",
+    "raw": {
+      "referencia": "EXT-260024",
+      "credito": "CR-00448",
+      "fecha_pago": "2026-10-26",
+      "monto": "-15,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "19:19"
+      }
+    }
+  },
+  {
+    "referencia": "EXT-260032",
+    "motivo": "REGISTRO_INVALIDO",
+    "detalle": "credito inexistente: CR-99999",
+    "raw": {
+      "referencia": "EXT-260032",
+      "credito": "CR-99999",
+      "fecha_pago": "2026-10-26",
+      "monto": "248,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "07:14"
+      }
+    }
+  },
+  {
+    "referencia": "EXT-260045",
+    "motivo": "REGISTRO_INVALIDO",
+    "detalle": "estado no aplicable: 'REVERSADO'",
+    "raw": {
+      "referencia": "EXT-260045",
+      "credito": "CR-00377",
+      "fecha_pago": "2026-10-26",
+      "monto": "155,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "REVERSADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "11:19"
+      }
+    }
+  },
+  {
+    "referencia": "EXT-260059",
+    "motivo": "REGISTRO_INVALIDO",
+    "detalle": "monto faltante",
+    "raw": {
+      "referencia": "EXT-260059",
+      "credito": "CR-00479",
+      "fecha_pago": "2026-10-27",
+      "monto": null,
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "19:47"
+      }
+    }
+  },
+  {
+    "referencia": "EXT-260102",
+    "motivo": "REGISTRO_INVALIDO",
+    "detalle": "estado no aplicable: 'PENDIENTE'",
+    "raw": {
+      "referencia": "EXT-260102",
+      "credito": "CR-00379",
+      "fecha_pago": "2026-10-27",
+      "monto": "136,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "PENDIENTE",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "11:51"
+      }
+    }
+  },
+  {
+    "referencia": "EXT-260010",
+    "motivo": "DUPLICADO_REFERENCIA",
+    "detalle": "referencia repetida en el lote (registro 121)",
+    "raw": {
+      "referencia": "EXT-260010",
+      "credito": "CR-00154",
+      "fecha_pago": "2026-10-26",
+      "monto": "156,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "11:11"
+      }
+    }
+  },
+  {
+    "referencia": "EXT-260010",
+    "motivo": "DUPLICADO_REFERENCIA",
+    "detalle": "referencia repetida en el lote (registro 122)",
+    "raw": {
+      "referencia": "EXT-260010",
+      "credito": "CR-00154",
+      "fecha_pago": "2026-10-26",
+      "monto": "156,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "11:11"
+      }
+    }
+  }
+]

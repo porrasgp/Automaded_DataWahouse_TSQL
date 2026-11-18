@@ -1,0 +1,24 @@
+PRUEBA TÉCNICA - INGENIERO DE DATOS - INSTACREDIT
+Paquete de datos (todos los datos son ficticios y fueron generados para esta prueba)
+
+Contenido:
+  01_crear_tablas_origen.sql   Crea la base PruebaDatos y las tablas del esquema src (SQL Server)
+  sucursales.csv               10 sucursales
+  clientes.csv                 300 clientes
+  creditos.csv                 480 créditos (Vigente / Cancelado / Castigado)
+  cuotas.csv                   13,485 cuotas (plan de pagos de cada crédito)
+  pagos.csv                    7,518 pagos registrados hasta el 25-oct-2026 (fecha de corte de la carga inicial)
+  pagos_incremental.csv        53 pagos registrados el 26 y 27-oct-2026 (lote para la carga incremental)
+  api_pagos_externos.json      Respuesta simulada de la API del proveedor de conectividad bancaria (122 registros)
+
+Notas sobre los datos:
+  - Formato CSV: separador coma, punto decimal, fechas AAAA-MM-DD, codificación UTF-8, encabezado en la primera fila.
+  - pagos.csv puede contener filas duplicadas y pagos sin id_cuota (abonos directos al crédito).
+  - fecha_registro es la fecha en que el pago quedó registrado; puede ser posterior a fecha_pago.
+  - pagos_incremental.csv incluye pagos nuevos, pagos "tardíos" (fecha_pago anterior al corte pero registrados después),
+    correcciones (mismo id_pago con monto distinto) y duplicados. Su proceso incremental debe decidir cómo tratarlos.
+  - api_pagos_externos.json contiene registros con problemas de calidad (campos faltantes, fechas inválidas,
+    montos en texto con separador de miles, montos negativos o nulos, créditos inexistentes, referencias duplicadas,
+    estados distintos de APLICADO). Su extractor debe manejarlos sin detenerse y dejar rastro de lo que rechazó.
+
+El enunciado completo y las instrucciones de entrega están en el documento que recibió junto con este paquete.

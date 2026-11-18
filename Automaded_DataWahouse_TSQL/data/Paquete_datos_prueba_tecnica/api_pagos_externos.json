@@ -1,0 +1,1594 @@
+{
+  "fecha_consulta": "2026-10-27T06:00:00",
+  "proveedor": "Conectividad Bancaria S.A.",
+  "pagina": 1,
+  "total_paginas": 1,
+  "total_registros": 122,
+  "pagos": [
+    {
+      "referencia": "EXT-260001",
+      "credito": "CR-00093",
+      "fecha_pago": "2026-10-27",
+      "monto": "58,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "20:12"
+      }
+    },
+    {
+      "referencia": "EXT-260002",
+      "credito": "CR-00099",
+      "fecha_pago": "2026-10-26",
+      "monto": "219,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "12:24"
+      }
+    },
+    {
+      "referencia": "EXT-260003",
+      "credito": "CR-00151",
+      "fecha_pago": "2026-10-26",
+      "monto": "179,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "08:03"
+      }
+    },
+    {
+      "referencia": "EXT-260004",
+      "credito": "CR-00243",
+      "fecha_pago": "2026-10-26",
+      "monto": "400,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "14:03"
+      }
+    },
+    {
+      "referencia": "EXT-260005",
+      "credito": "CR-00067",
+      "fecha_pago": "2026-10-26",
+      "monto": "22,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "10:15"
+      }
+    },
+    {
+      "referencia": "EXT-260006",
+      "fecha_pago": "2026-10-26",
+      "monto": "288,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "12:11"
+      }
+    },
+    {
+      "referencia": "EXT-260007",
+      "credito": "CR-00375",
+      "fecha_pago": "2026-10-27",
+      "monto": "268,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "15:47"
+      }
+    },
+    {
+      "referencia": "EXT-260008",
+      "credito": "CR-00032",
+      "fecha_pago": "2026-10-27",
+      "monto": "211,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "06:13"
+      }
+    },
+    {
+      "referencia": "EXT-260009",
+      "credito": "CR-00247",
+      "fecha_pago": "2026-10-26",
+      "monto": "281,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "20:24"
+      }
+    },
+    {
+      "referencia": "EXT-260010",
+      "credito": "CR-00154",
+      "fecha_pago": "2026-10-26",
+      "monto": "156,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "11:11"
+      }
+    },
+    {
+      "referencia": "EXT-260011",
+      "credito": "CR-00397",
+      "fecha_pago": "2026-10-26",
+      "monto": "81,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "11:26"
+      }
+    },
+    {
+      "referencia": "EXT-260012",
+      "credito": "CR-00443",
+      "fecha_pago": "2026-10-26",
+      "monto": "148,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "18:13"
+      }
+    },
+    {
+      "referencia": "EXT-260013",
+      "credito": "CR-00208",
+      "fecha_pago": "2026-10-26",
+      "monto": "393,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "10:31"
+      }
+    },
+    {
+      "referencia": "EXT-260014",
+      "credito": "CR-00319",
+      "fecha_pago": "2026-10-27",
+      "monto": "380,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "06:25"
+      }
+    },
+    {
+      "referencia": "EXT-260015",
+      "credito": "CR-00162",
+      "fecha_pago": "2026-10-26",
+      "monto": "211,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "11:43"
+      }
+    },
+    {
+      "referencia": "EXT-260016",
+      "credito": "CR-00377",
+      "fecha_pago": "2026-10-26",
+      "monto": "308,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "10:28"
+      }
+    },
+    {
+      "referencia": "EXT-260017",
+      "credito": "CR-00259",
+      "fecha_pago": "2026-10-27",
+      "monto": "288,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "17:03"
+      }
+    },
+    {
+      "referencia": "EXT-260018",
+      "credito": "CR-00227",
+      "fecha_pago": "2026-13-01",
+      "monto": "117,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "20:43"
+      }
+    },
+    {
+      "referencia": "EXT-260019",
+      "credito": "CR-00032",
+      "fecha_pago": "2026-10-26",
+      "monto": "342,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "09:25"
+      }
+    },
+    {
+      "referencia": "EXT-260020",
+      "credito": "CR-00222",
+      "fecha_pago": "2026-10-26",
+      "monto": "80,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "10:34"
+      }
+    },
+    {
+      "referencia": "EXT-260021",
+      "credito": "CR-00070",
+      "fecha_pago": "2026-10-26",
+      "monto": "273,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "18:19"
+      }
+    },
+    {
+      "referencia": "EXT-260022",
+      "credito": "CR-00323",
+      "fecha_pago": "2026-10-27",
+      "monto": "58,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "21:29"
+      }
+    },
+    {
+      "referencia": "EXT-260023",
+      "credito": "CR-00298",
+      "fecha_pago": "2026-10-27",
+      "monto": "204,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "19:07"
+      }
+    },
+    {
+      "referencia": "EXT-260024",
+      "credito": "CR-00448",
+      "fecha_pago": "2026-10-26",
+      "monto": "-15,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "19:19"
+      }
+    },
+    {
+      "referencia": "EXT-260025",
+      "credito": "CR-00016",
+      "fecha_pago": "2026-10-27",
+      "monto": "102,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "13:29"
+      }
+    },
+    {
+      "referencia": "EXT-260026",
+      "credito": "CR-00316",
+      "fecha_pago": "2026-10-26",
+      "monto": "183,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "16:04"
+      }
+    },
+    {
+      "referencia": "EXT-260027",
+      "credito": "CR-00192",
+      "fecha_pago": "2026-10-27",
+      "monto": "315,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "09:36"
+      }
+    },
+    {
+      "referencia": "EXT-260028",
+      "credito": "CR-00110",
+      "fecha_pago": "2026-10-27",
+      "monto": "329,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "06:48"
+      }
+    },
+    {
+      "referencia": "EXT-260029",
+      "credito": "CR-00390",
+      "fecha_pago": "2026-10-26",
+      "monto": "195,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "20:24"
+      }
+    },
+    {
+      "referencia": "EXT-260030",
+      "credito": "CR-00429",
+      "fecha_pago": "2026-10-26",
+      "monto": "380,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "06:18"
+      }
+    },
+    {
+      "referencia": "EXT-260031",
+      "credito": "CR-00384",
+      "fecha_pago": "2026-10-26",
+      "monto": "123,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "17:13"
+      }
+    },
+    {
+      "referencia": "EXT-260032",
+      "credito": "CR-99999",
+      "fecha_pago": "2026-10-26",
+      "monto": "248,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "07:14"
+      }
+    },
+    {
+      "referencia": "EXT-260033",
+      "credito": "CR-00028",
+      "fecha_pago": "2026-10-26",
+      "monto": "288,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "08:12"
+      }
+    },
+    {
+      "referencia": "EXT-260034",
+      "credito": "CR-00457",
+      "fecha_pago": "2026-10-26",
+      "monto": "141,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "09:22"
+      }
+    },
+    {
+      "referencia": "EXT-260035",
+      "credito": "CR-00392",
+      "fecha_pago": "2026-10-27",
+      "monto": "249,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "10:50"
+      }
+    },
+    {
+      "referencia": "EXT-260036",
+      "credito": "CR-00024",
+      "fecha_pago": "2026-10-26",
+      "monto": "364,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "10:14"
+      }
+    },
+    {
+      "referencia": "EXT-260037",
+      "credito": "CR-00153",
+      "fecha_pago": "2026-10-27",
+      "monto": "199,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "10:02"
+      }
+    },
+    {
+      "referencia": "EXT-260038",
+      "credito": "CR-00330",
+      "fecha_pago": "2026-10-26",
+      "monto": "32,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "20:29"
+      }
+    },
+    {
+      "referencia": "EXT-260039",
+      "credito": "CR-00384",
+      "fecha_pago": "2026-10-27",
+      "monto": "83,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "21:42"
+      }
+    },
+    {
+      "referencia": "EXT-260040",
+      "credito": "CR-00178",
+      "fecha_pago": "2026-10-26",
+      "monto": "365,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "18:49"
+      }
+    },
+    {
+      "referencia": "EXT-260041",
+      "credito": "CR-00270",
+      "fecha_pago": "2026-10-26",
+      "monto": "22,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "18:37"
+      }
+    },
+    {
+      "referencia": "EXT-260042",
+      "credito": "CR-00359",
+      "fecha_pago": "2026-10-27",
+      "monto": "356,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "07:04"
+      }
+    },
+    {
+      "referencia": "EXT-260043",
+      "credito": "CR-00299",
+      "fecha_pago": "2026-10-26",
+      "monto": "360,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "21:51"
+      }
+    },
+    {
+      "referencia": "EXT-260044",
+      "credito": "CR-00128",
+      "fecha_pago": "2026-10-26",
+      "monto": "47,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "16:47"
+      }
+    },
+    {
+      "referencia": "EXT-260045",
+      "credito": "CR-00377",
+      "fecha_pago": "2026-10-26",
+      "monto": "155,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "REVERSADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "11:19"
+      }
+    },
+    {
+      "referencia": "EXT-260046",
+      "credito": "CR-00459",
+      "fecha_pago": "2026-10-27",
+      "monto": "288,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "20:07"
+      }
+    },
+    {
+      "referencia": "EXT-260047",
+      "credito": "CR-00443",
+      "fecha_pago": "2026-10-27",
+      "monto": "351,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "06:49"
+      }
+    },
+    {
+      "referencia": "EXT-260048",
+      "credito": "CR-00265",
+      "fecha_pago": "2026-10-27",
+      "monto": "143,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "09:21"
+      }
+    },
+    {
+      "referencia": "EXT-260049",
+      "credito": "CR-00022",
+      "fecha_pago": "2026-10-26",
+      "monto": "182,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "17:00"
+      }
+    },
+    {
+      "referencia": "EXT-260050",
+      "credito": "CR-00415",
+      "fecha_pago": "2026-10-26",
+      "monto": "331,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "13:06"
+      }
+    },
+    {
+      "referencia": "EXT-260051",
+      "credito": "CR-00437",
+      "fecha_pago": "2026-10-26",
+      "monto": "229,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "07:08"
+      }
+    },
+    {
+      "referencia": "EXT-260052",
+      "credito": "CR-00203",
+      "fecha_pago": "2026-10-26",
+      "monto": "106,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "19:39"
+      }
+    },
+    {
+      "referencia": "EXT-260053",
+      "credito": "CR-00122",
+      "fecha_pago": "2026-10-27",
+      "monto": "332,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "17:04"
+      }
+    },
+    {
+      "referencia": "EXT-260054",
+      "credito": "CR-00162",
+      "fecha_pago": "2026-10-27",
+      "monto": "227,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "11:45"
+      }
+    },
+    {
+      "referencia": "EXT-260055",
+      "credito": "CR-00124",
+      "fecha_pago": "2026-10-27",
+      "monto": "123,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "10:04"
+      }
+    },
+    {
+      "referencia": "EXT-260056",
+      "credito": "CR-00076",
+      "fecha_pago": "2026-10-26",
+      "monto": "302,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "08:27"
+      }
+    },
+    {
+      "referencia": "EXT-260057",
+      "credito": "CR-00122",
+      "fecha_pago": "2026-10-27",
+      "monto": "335,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "19:31"
+      }
+    },
+    {
+      "referencia": "EXT-260058",
+      "credito": "CR-00423",
+      "fecha_pago": "2026-10-26",
+      "monto": "155,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "16:42"
+      }
+    },
+    {
+      "referencia": "EXT-260059",
+      "credito": "CR-00479",
+      "fecha_pago": "2026-10-27",
+      "monto": null,
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "19:47"
+      }
+    },
+    {
+      "referencia": "EXT-260060",
+      "credito": "CR-00305",
+      "fecha_pago": "2026-10-26",
+      "monto": "123,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "15:42"
+      }
+    },
+    {
+      "referencia": "EXT-260061",
+      "credito": "CR-00436",
+      "fecha_pago": "2026-10-27",
+      "monto": "107,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "14:27"
+      }
+    },
+    {
+      "referencia": "EXT-260062",
+      "credito": "CR-00134",
+      "fecha_pago": "2026-10-26",
+      "monto": "30,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "19:47"
+      }
+    },
+    {
+      "referencia": "EXT-260063",
+      "credito": "CR-00142",
+      "fecha_pago": "2026-10-26",
+      "monto": "88,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "21:14"
+      }
+    },
+    {
+      "referencia": "EXT-260064",
+      "credito": "CR-00434",
+      "fecha_pago": "2026-10-26",
+      "monto": "146,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "15:13"
+      }
+    },
+    {
+      "referencia": "EXT-260065",
+      "credito": "CR-00280",
+      "fecha_pago": "2026-10-26",
+      "monto": "361,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "19:24"
+      }
+    },
+    {
+      "referencia": "EXT-260066",
+      "credito": "CR-00172",
+      "fecha_pago": "2026-10-27",
+      "monto": "227,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "10:17"
+      }
+    },
+    {
+      "referencia": "EXT-260067",
+      "credito": "CR-00147",
+      "fecha_pago": "2026-10-27",
+      "monto": "298,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "09:31"
+      }
+    },
+    {
+      "referencia": "EXT-260068",
+      "credito": "CR-00262",
+      "fecha_pago": "2026-10-26",
+      "monto": "265,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "13:26"
+      }
+    },
+    {
+      "referencia": "EXT-260069",
+      "credito": "CR-00458",
+      "fecha_pago": "2026-10-27",
+      "monto": "307,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "07:53"
+      }
+    },
+    {
+      "referencia": "EXT-260070",
+      "credito": "CR-00470",
+      "fecha_pago": "2026-10-27",
+      "monto": "289,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "18:44"
+      }
+    },
+    {
+      "referencia": "EXT-260071",
+      "credito": "CR-00305",
+      "fecha_pago": "26/10/2026",
+      "monto": "266,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "08:07"
+      }
+    },
+    {
+      "referencia": "EXT-260072",
+      "credito": "CR-00115",
+      "fecha_pago": "2026-10-27",
+      "monto": "309,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "11:34"
+      }
+    },
+    {
+      "referencia": "EXT-260073",
+      "credito": "CR-00401",
+      "fecha_pago": "2026-10-26",
+      "monto": "234,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "06:12"
+      }
+    },
+    {
+      "referencia": "EXT-260074",
+      "credito": "CR-00261",
+      "fecha_pago": "2026-10-27",
+      "monto": "160,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "06:41"
+      }
+    },
+    {
+      "referencia": "EXT-260075",
+      "credito": "CR-00242",
+      "fecha_pago": "2026-10-27",
+      "monto": "366,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "14:05"
+      }
+    },
+    {
+      "referencia": "EXT-260076",
+      "credito": "CR-00285",
+      "fecha_pago": "2026-10-27",
+      "monto": "291,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "11:08"
+      }
+    },
+    {
+      "referencia": "EXT-260077",
+      "credito": "CR-00334",
+      "fecha_pago": "2026-10-27",
+      "monto": "348,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "18:36"
+      }
+    },
+    {
+      "referencia": "EXT-260078",
+      "credito": "CR-00168",
+      "fecha_pago": "2026-10-27",
+      "monto": "215,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "19:29"
+      }
+    },
+    {
+      "referencia": "EXT-260079",
+      "credito": "CR-00030",
+      "fecha_pago": "2026-10-27",
+      "monto": "295,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "06:49"
+      }
+    },
+    {
+      "referencia": "EXT-260080",
+      "credito": "CR-00051",
+      "fecha_pago": "2026-10-26",
+      "monto": "352,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "20:08"
+      }
+    },
+    {
+      "referencia": "EXT-260081",
+      "credito": "CR-00409",
+      "fecha_pago": "2026-10-26",
+      "monto": "43,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "15:05"
+      }
+    },
+    {
+      "referencia": "EXT-260082",
+      "credito": "CR-00297",
+      "fecha_pago": "2026-10-26",
+      "monto": "362,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "20:40"
+      }
+    },
+    {
+      "referencia": "EXT-260083",
+      "credito": "CR-00424",
+      "fecha_pago": "2026-10-26",
+      "monto": "315,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "06:55"
+      }
+    },
+    {
+      "referencia": "EXT-260084",
+      "credito": "cr-00012 ",
+      "fecha_pago": "2026-10-26",
+      "monto": "212,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "19:58"
+      }
+    },
+    {
+      "referencia": "EXT-260085",
+      "credito": "CR-00460",
+      "fecha_pago": "2026-10-27",
+      "monto": "397,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "21:18"
+      }
+    },
+    {
+      "referencia": "EXT-260086",
+      "credito": "CR-00389",
+      "fecha_pago": "2026-10-26",
+      "monto": "369,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "19:47"
+      }
+    },
+    {
+      "referencia": "EXT-260087",
+      "credito": "CR-00035",
+      "fecha_pago": "2026-10-27",
+      "monto": "54,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "10:57"
+      }
+    },
+    {
+      "referencia": "EXT-260088",
+      "credito": "CR-00457",
+      "fecha_pago": "2026-10-27",
+      "monto": "239,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "14:49"
+      }
+    },
+    {
+      "referencia": "EXT-260089",
+      "credito": "CR-00348",
+      "fecha_pago": "2026-10-26",
+      "monto": "299,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "19:46"
+      }
+    },
+    {
+      "referencia": "EXT-260090",
+      "credito": "CR-00405",
+      "fecha_pago": "2026-10-27",
+      "monto": "167,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "10:32"
+      }
+    },
+    {
+      "referencia": "EXT-260091",
+      "credito": "CR-00365",
+      "fecha_pago": "2026-10-26",
+      "monto": "288,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "19:14"
+      }
+    },
+    {
+      "referencia": "EXT-260092",
+      "credito": "CR-00233",
+      "fecha_pago": "2026-10-27",
+      "monto": "176,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "14:09"
+      }
+    },
+    {
+      "referencia": "EXT-260093",
+      "credito": "CR-00362",
+      "fecha_pago": "2026-10-26",
+      "monto": "28,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "06:42"
+      }
+    },
+    {
+      "referencia": "EXT-260094",
+      "credito": "CR-00136",
+      "fecha_pago": "2026-10-27",
+      "monto": "351,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "16:31"
+      }
+    },
+    {
+      "referencia": "EXT-260095",
+      "credito": "CR-00168",
+      "fecha_pago": "2026-10-27",
+      "monto": "320,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "08:34"
+      }
+    },
+    {
+      "referencia": "EXT-260096",
+      "credito": "CR-00118",
+      "fecha_pago": "2026-10-27",
+      "monto": "309,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "07:05"
+      }
+    },
+    {
+      "referencia": "EXT-260097",
+      "credito": "CR-00160",
+      "fecha_pago": "2026-10-26",
+      "monto": "200,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "16:32"
+      }
+    },
+    {
+      "referencia": "EXT-260098",
+      "credito": "CR-00159",
+      "fecha_pago": "2026-10-26",
+      "monto": "267,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "14:06"
+      }
+    },
+    {
+      "referencia": "EXT-260099",
+      "credito": "CR-00137",
+      "fecha_pago": "2026-10-26",
+      "monto": "26,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "13:53"
+      }
+    },
+    {
+      "referencia": "EXT-260100",
+      "credito": "CR-00351",
+      "fecha_pago": "2026-10-27",
+      "monto": "182,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "17:35"
+      }
+    },
+    {
+      "referencia": "EXT-260101",
+      "credito": "CR-00348",
+      "fecha_pago": "2026-10-26",
+      "monto": "156,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "18:52"
+      }
+    },
+    {
+      "referencia": "EXT-260102",
+      "credito": "CR-00379",
+      "fecha_pago": "2026-10-27",
+      "monto": "136,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "PENDIENTE",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "11:51"
+      }
+    },
+    {
+      "referencia": "EXT-260103",
+      "credito": "CR-00202",
+      "fecha_pago": "2026-10-27",
+      "monto": "239,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "17:58"
+      }
+    },
+    {
+      "referencia": "EXT-260104",
+      "credito": "CR-00318",
+      "fecha_pago": "2026-10-26",
+      "monto": "349,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "07:52"
+      }
+    },
+    {
+      "referencia": "EXT-260105",
+      "credito": "CR-00471",
+      "fecha_pago": "2026-10-26",
+      "monto": "240,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "20:51"
+      }
+    },
+    {
+      "referencia": "EXT-260106",
+      "credito": "CR-00175",
+      "fecha_pago": "2026-10-26",
+      "monto": "142,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "15:19"
+      }
+    },
+    {
+      "referencia": "EXT-260107",
+      "credito": "CR-00359",
+      "fecha_pago": "2026-10-26",
+      "monto": "31,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "15:39"
+      }
+    },
+    {
+      "referencia": "EXT-260108",
+      "credito": "CR-00317",
+      "fecha_pago": "2026-10-27",
+      "monto": "353,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "08:17"
+      }
+    },
+    {
+      "referencia": "EXT-260109",
+      "credito": "CR-00181",
+      "fecha_pago": "2026-10-27",
+      "monto": "300,000.00",
+      "moneda": "CRC",
+      "canal": "BancoB",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "17:43"
+      }
+    },
+    {
+      "referencia": "EXT-260110",
+      "credito": "CR-00069",
+      "fecha_pago": "2026-10-26",
+      "monto": "170,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "13:24"
+      }
+    },
+    {
+      "referencia": "EXT-260111",
+      "credito": "CR-00085",
+      "fecha_pago": "2026-10-26",
+      "monto": "342,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "10:33"
+      }
+    },
+    {
+      "referencia": "EXT-260112",
+      "credito": "CR-00103",
+      "fecha_pago": "2026-10-26",
+      "monto": "400,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "07:24"
+      }
+    },
+    {
+      "referencia": "EXT-260113",
+      "credito": "CR-00082",
+      "fecha_pago": "2026-10-26",
+      "monto": "27,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "17:44"
+      }
+    },
+    {
+      "referencia": "EXT-260114",
+      "credito": "CR-00160",
+      "fecha_pago": "2026-10-26",
+      "monto": "144,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "13:33"
+      }
+    },
+    {
+      "referencia": "EXT-260115",
+      "credito": "CR-00355",
+      "fecha_pago": "2026-10-27",
+      "monto": "284,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "15:30"
+      }
+    },
+    {
+      "referencia": "EXT-260116",
+      "credito": "CR-00144",
+      "fecha_pago": "2026-10-27",
+      "monto": "142,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "19:13"
+      }
+    },
+    {
+      "referencia": "EXT-260117",
+      "credito": "CR-00274",
+      "fecha_pago": "2026-10-27",
+      "monto": "243,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Web",
+        "hora": "16:57"
+      }
+    },
+    {
+      "referencia": "EXT-260118",
+      "credito": "CR-00341",
+      "fecha_pago": "2026-10-27",
+      "monto": "23,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "12:52"
+      }
+    },
+    {
+      "referencia": "EXT-260119",
+      "credito": "CR-00156",
+      "fecha_pago": "2026-10-26",
+      "monto": "327,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "06:25"
+      }
+    },
+    {
+      "referencia": "EXT-260120",
+      "credito": "CR-00159",
+      "fecha_pago": "2026-10-26",
+      "monto": "296,000.00",
+      "moneda": "CRC",
+      "canal": "BancoA",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "Ventanilla",
+        "hora": "20:06"
+      }
+    },
+    {
+      "referencia": "EXT-260010",
+      "credito": "CR-00154",
+      "fecha_pago": "2026-10-26",
+      "monto": "156,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "11:11"
+      }
+    },
+    {
+      "referencia": "EXT-260010",
+      "credito": "CR-00154",
+      "fecha_pago": "2026-10-26",
+      "monto": "156,000.00",
+      "moneda": "CRC",
+      "canal": "Pago Móvil",
+      "estado": "APLICADO",
+      "detalle": {
+        "comercio": "SINPE",
+        "hora": "11:11"
+      }
+    }
+  ]
+}
