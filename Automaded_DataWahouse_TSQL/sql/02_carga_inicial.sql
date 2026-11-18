@@ -1,5 +1,5 @@
 ﻿/* =====================================================================
-   Prueba tecnica Instacredit - Ingeniero de Datos
+   Prueba tecnica empresa - Ingeniero de Datos
    Variante Windows / Azure SQL Database
    02_carga_inicial.sql
    Carga inicial del DW desde src.* con fecha de corte 2026-10-25.

@@ -1,5 +1,5 @@
 ﻿/* =====================================================================
-   Prueba tecnica Instacredit - Ingeniero de Datos
+   Prueba tecnica empresa - Ingeniero de Datos
    Variante Windows / Azure SQL Database
    04_consultas.sql
    Consultas de negocio sobre el DW. Se usa el ultimo corte disponible.

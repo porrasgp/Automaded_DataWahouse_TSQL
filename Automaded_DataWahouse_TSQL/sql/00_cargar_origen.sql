@@ -1,5 +1,5 @@
 ﻿/* =====================================================================
-   Prueba tecnica Instacredit - Ingeniero de Datos
+   Prueba tecnica empresa - Ingeniero de Datos
    00_cargar_origen.sql - Variante Windows / Azure SQL Database
    Crea UNICAMENTE el esquema src y las tablas ORIGEN en DatosPrueba (base origen).
 

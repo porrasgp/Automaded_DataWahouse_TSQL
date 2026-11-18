@@ -1,5 +1,5 @@
 ﻿/* =====================================================================
-   Prueba tecnica Instacredit - Ingeniero de Datos
+   Prueba tecnica empresa - Ingeniero de Datos
    Variante Windows / Azure SQL Database
    05_validaciones.sql
    Validaciones automaticas del DW, la carga incremental y el extractor.

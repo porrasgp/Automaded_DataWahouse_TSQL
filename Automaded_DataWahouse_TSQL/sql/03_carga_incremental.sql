@@ -1,5 +1,5 @@
 ﻿/* =====================================================================
-   Prueba tecnica Instacredit - Ingeniero de Datos
+   Prueba tecnica empresa - Ingeniero de Datos
    Variante Windows / Azure SQL Database
    03_carga_incremental.sql
    Procedimiento almacenado de carga incremental de [DatosPrueba].src.pagos_incremental.

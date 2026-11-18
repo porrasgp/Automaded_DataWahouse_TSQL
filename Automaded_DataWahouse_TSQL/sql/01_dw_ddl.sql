@@ -1,5 +1,5 @@
 ﻿/* =====================================================================
-   Prueba tecnica Instacredit - Ingeniero de Datos
+   Prueba tecnica empresa - Ingeniero de Datos
    Variante Windows / Azure SQL Database
    01_dw_ddl.sql
    Modelo dimensional (esquema dw), tablas de auditoria/staging,

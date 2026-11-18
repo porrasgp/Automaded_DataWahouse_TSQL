@@ -1,5 +1,5 @@
 ﻿/* =====================================================================
-   Prueba tecnica Instacredit - Ingeniero de Datos
+   Prueba tecnica empresa - Ingeniero de Datos
    Variante Windows / Azure SQL Database
    06_integrar_pagos_externos.sql
    Promueve los pagos validos de dw.stg_pagos_externos a dw.fact_pago.

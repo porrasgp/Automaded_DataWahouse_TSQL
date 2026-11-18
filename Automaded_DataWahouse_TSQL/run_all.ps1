@@ -1,5 +1,5 @@
 # =====================================================================
-# Prueba tecnica Instacredit - Variante Windows / Azure SQL Database
+# Prueba tecnica empresa - Variante Windows / Azure SQL Database
 # run_all.ps1
 #
 # Ejecuta la solucion completa en el orden esperado, dos veces donde se
@@ -73,9 +73,9 @@ if (-not $SrcDatabase) { $SrcDatabase = Get-Setting "SRC_DB_NAME" "DatosPrueba" 
 if (-not $User)     { $User     = Get-Setting "DB_USER" "sa" }
 if (-not $Password) { $Password = Get-Setting "DB_PASSWORD" "" }
 if (-not $Driver)   { $Driver   = Get-Setting "DB_DRIVER" "ODBC Driver 18 for SQL Server" }
-if (-not $DataDir)  { $DataDir  = Get-Setting "DATA_DIR" "Instacredit\Paquete_datos_prueba_tecnica" }
+if (-not $DataDir)  { $DataDir  = Get-Setting "DATA_DIR" "empresa\Paquete_datos_prueba_tecnica" }
 if (-not $InputJson) {
-    $InputJson = Get-Setting "INPUT_JSON_PATH" "Instacredit\Paquete_datos_prueba_tecnica\api_pagos_externos.json"
+    $InputJson = Get-Setting "INPUT_JSON_PATH" "empresa\Paquete_datos_prueba_tecnica\api_pagos_externos.json"
 }
 if (-not $Password) { throw "Falta DB_PASSWORD. Configure python\.env o use -Password." }
 
